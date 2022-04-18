@@ -132,7 +132,7 @@ function update() {
     console.log(guess);
 
     if (!guessList.includes(guess)) {
-        document.getElementById("answer").innerText = "A palavra não é válida";
+        document.getElementById("answer").innerText = "Palavra invalida";
         return;
     }
     
