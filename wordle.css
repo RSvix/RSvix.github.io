@@ -15,8 +15,8 @@ hr {
 }
 
 #board {
-    width: 340px;
-    height: 410px;
+    width: 350px;
+    height: 420px;
     margin: 0 auto;
     margin-top: 3px;
     display: flex;
@@ -26,8 +26,8 @@ hr {
 .tile {
     /* Box */
     border: 2px solid lightgray;
-    width: 58px;
-    height: 58px;
+    width: 60px;
+    height: 60px;
     margin: 2px;
 
     /* Text */
