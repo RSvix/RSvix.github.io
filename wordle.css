@@ -4,7 +4,7 @@ body {
 }
 
 hr {
-    width: 440px;
+    width: 380px;
 }
 
 #title {
@@ -58,7 +58,7 @@ hr {
 
 
 .keyboard-row {
-    width: 390px;
+    width: 360px;
 
     margin: 0 auto;
     display: flex;
