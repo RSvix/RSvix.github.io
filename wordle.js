@@ -113,7 +113,7 @@ function processInput(e) {
 
     if (!gameOver && row == height) {
         gameOver = true;
-        document.getElementById("answer").innerText = 'Voce falhou miseravelmente\n a palavra era ' + word;
+        document.getElementById("answer").innerText = 'Você falhou miseravelmente,\n a palavra era ' + word;
     }
    
 }
