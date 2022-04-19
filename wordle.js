@@ -115,6 +115,11 @@ function processInput(e) {
         gameOver = true;
         document.getElementById("answer").innerText = 'Você falhou miseravelmente,\n a palavra era ' + word;
     }
+    
+    if (guess == word) {
+        gameOver = true;
+        document.getElementById("answer").innerText = 'Parabéns sua\n cara de fuinha ';
+    }
    
 }
 
