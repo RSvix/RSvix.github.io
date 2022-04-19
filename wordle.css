@@ -13,6 +13,12 @@ hr {
     letter-spacing: 2px;
 }
 
+#answer {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
 #board {
     width: 350px;
     height: 420px;
