@@ -113,7 +113,7 @@ function processInput(e) {
 
     if (!gameOver && row == height) {
         gameOver = true;
-        document.getElementById("answer").innerText = 'Voce falhou miseravelmente, a palavra era ' + word;
+        document.getElementById("answer").innerText = 'Voce falhou miseravelmente\n a palavra era ' + word;
     }
 }
 
@@ -132,7 +132,7 @@ function update() {
     console.log(guess);
 
     if (!guessList.includes(guess)) {
-        document.getElementById("answer").innerText = "Palavra invalida";
+        document.getElementById("answer").innerText = "Palavra inválida";
         return;
     }
     
