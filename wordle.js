@@ -115,6 +115,12 @@ function processInput(e) {
         gameOver = true;
         document.getElementById("answer").innerText = 'Voce falhou miseravelmente\n a palavra era ' + word;
     }
+    
+    if (!gameOver && row != height) {
+        gameOver = true;
+        document.getElementById("answer").innerText = 'Parabens sua\n cara de fuinha;
+    }
+    
 }
 
 function update() {
